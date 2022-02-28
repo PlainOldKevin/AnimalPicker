@@ -19,10 +19,10 @@ public class SelectAnimal {
 		}
 		
 		if (ans.equalsIgnoreCase("dog")) {
-			System.out.println("DOG ASCII HERE");
+			System.out.println("  __      _\no\'\')}____//\n `_/      )\n (_(_/-(_/");
 		}
 		else if (ans.equalsIgnoreCase("cat")) {
-			System.out.println("CAT ASCII HERE");
+			System.out.println("\"  /\\\\_/\\\\  (\\n ( ^.^ ) _)\\n   \\\\\\\"/  (\\n ( | | )\\n(__d b__)\"");
 		}
 		
 	}
