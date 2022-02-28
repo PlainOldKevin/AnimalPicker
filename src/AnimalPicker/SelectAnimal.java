@@ -22,7 +22,7 @@ public class SelectAnimal {
 			System.out.println("  __      _\no\'\')}____//\n `_/      )\n (_(_/-(_/");
 		}
 		else if (ans.equalsIgnoreCase("cat")) {
-			System.out.println("\"  /\\\\_/\\\\  (\\n ( ^.^ ) _)\\n   \\\\\\\"/  (\\n ( | | )\\n(__d b__)\"");
+			System.out.println(" |\\__/,|   (`\\\n |_ _  |.--.) )\n ( T   )     /\n(((^_(((/(((_/");
 		}
 		
 	}
