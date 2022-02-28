@@ -7,20 +7,24 @@ public class SelectAnimal {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
-		String ans = sc.nextLine();
 		
 		System.out.println("Would you like to see a picture of a dog or cat?");
 		System.out.println("Type \"dog\" for a dog and \"cat\" for a cat.");
+		String ans = sc.nextLine();
 		
-		if(ans.equalsIgnoreCase("dog")) {
-			System.out.println("DOG ASCII ART HERE");
+		while (!ans.equalsIgnoreCase("dog") && !ans.equalsIgnoreCase("cat")) {
+			System.out.println("Error. Input " + ans + " is invalid.");
+			System.out.println("Type \"dog\" to see a dog or \"cat\" to see a cat.");
+			ans = sc.nextLine();
 		}
-		else if(ans.equalsIgnoreCase("cat")) {
-			System.out.println("CAT ASCII ART HERE");
+		
+		if (ans.equalsIgnoreCase("dog")) {
+			System.out.println("DOG ASCII HERE");
 		}
-		else {
-			System.out.println("Error. Incorrect input.");
+		else if (ans.equalsIgnoreCase("cat")) {
+			System.out.println("CAT ASCII HERE");
 		}
+		
 	}
 
 }
